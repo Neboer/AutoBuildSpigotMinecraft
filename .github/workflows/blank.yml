@@ -18,7 +18,7 @@ jobs:
       - name: Setup Java JDK
         uses: actions/setup-java@v2.5.0
         with:
-          java-version: '11'
+          java-version: '17'
           distribution: zulu
       - name: download spigot
         run: wget https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
